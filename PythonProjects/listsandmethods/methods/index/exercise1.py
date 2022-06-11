@@ -1,0 +1,10 @@
+Names = ['a','b','c','d']
+print(Names)
+print(Names[0])
+print(Names[1])
+print(Names[2])
+print(Names[3])
+print("Welcome to the "+Names[0].title()+"!")
+print("Welcome to the "+Names[1].title()+"!")
+print("Welcome to the "+Names[2].title()+"!")
+print("Welcome to the "+Names[3].title()+"!")

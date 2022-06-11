@@ -1,0 +1,38 @@
+guests  = ['alfa', 'beta', 'gamma', 'delta', 'echo','foxtrot','hotel', 'golf']
+print(guests)
+# Printing invitations
+print("Your are invited to the new party Mr."+guests[0].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[1].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[2].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[3].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[4].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[5].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[6].title()+"on Month End")
+print("Your are invited to the new party Mr."+guests[7].title()+"on Month End")
+# changing guest list
+guests[4] = 'india'
+print("Your are invited to the new party Mr."+guests[0].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[1].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[2].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[3].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[4].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[5].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[6].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[7].title()+" on Month End")
+
+# adding guests
+guests.append('juliet')
+guests.append('kilo')
+guests.append('mike')
+guests.insert(7, 'exa')
+print("Your are invited to the new party Mr."+guests[0].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[1].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[2].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[3].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[4].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[5].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[6].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[7].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[8].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[9].title()+" on Month End")
+print("Your are invited to the new party Mr."+guests[10].title()+" on Month End")

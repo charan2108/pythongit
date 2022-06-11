@@ -1,0 +1,6 @@
+readMe =open('examplepython.txt', 'r').read()
+print(readMe)
+splitMe = readMe.split('\n')
+print(splitMe)
+readMe2 =open('Codting.txt', 'r').readlines()
+print(readMe2)
